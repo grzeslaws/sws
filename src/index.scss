@@ -1,0 +1,14 @@
+@import "./assets/styles/component.scss";
+
+.c {
+    color: black; 
+}
+
+.c-main {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    background: url("./assets/images/myfile.jpg") no-repeat;
+
+    @include test;
+}

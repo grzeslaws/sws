@@ -1,0 +1,29 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "Simple website starter, based on typescript, handlebars theme system, and webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "4.14.118",
+    "file-loader": "2.0.0",
+    "node-sass": "4.10.0",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "ts-loader": "5.3.0",
+    "typescript": "3.1.6",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  },
+  "dependencies": {
+    "handlebars": "4.0.12",
+    "handlebars-loader": "1.7.0",
+    "lodash": "4.17.11"
+  }
+}
